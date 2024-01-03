@@ -1,22 +1,33 @@
 *{
     box-sizing:border-box;
     margin: 0 auto;
+    padding: 0 ;
 }
 body{
     background-color: hsl(234, 29%, 20%);
 }
 .signUp{
     display: flex;
-    justify-content: stretch;
-    width: 50%;
-    margin-top: 10rem;
-    /* height: 5rem; */
+    /* gap: 1rem; */
+    width: 60%;
+    margin-top: 8rem;
     background: hsl(0, 0%, 100%);
     border-radius: 15px;
-    /* padding: 2.5rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-.signUp img{
-    /* max-width: 100%; */
+.stay{
+    padding-top: 4rem ;
+    /* width: 50%; */
+}
+.stay h2{
+    font-size: 2.5rem;
+}
+.illustrationSignUp img{
+    max-width: 100%;
+    width: 100%;
     display: block;
-    width: 70%;
+    height: 20rem;
+    jus
+    /* margin-right: 0rem; */
 }
