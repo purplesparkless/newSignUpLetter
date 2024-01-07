@@ -1,34 +1,45 @@
 *{
     box-sizing:border-box;
     margin: 0 auto;
-    /* padding: 0 ; */
+    padding: 0 ;
 }
 body{
     background-color: hsl(234, 29%, 20%);
 }
 .signUp{
     display: flex;
-    /* gap: 1rem; */
-    width: 60%;
+    /* gap: 2rem; */
+    width: 55%;
     margin-top: 8rem;
     background: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
+
+/* ------------STAY-------------------- */
 .stay{
-    padding-top: 4rem ;
-    /* width: 50%; */
+    padding: 4rem 2rem  ;
+    /* margin-right: 2rem; */
+    /* width: 60%; */
 }
 .stay h2{
     font-size: 2.5rem;
+    padding-bottom:1rem;
 }
+.stay p{
+    font-size: large;
+}
+.stay ul{
+    padding-right: 2rem;
+}
+/* ----------IMAGE---------------- */
 .illustrationSignUp img{
     max-width: 100%;
     width: 100%;
     display: block;
     height: 20rem;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     /* margin-right: 0rem; */
 }
 button{
